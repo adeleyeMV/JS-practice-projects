@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+/* CSS RESET  */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ====== GENERAL TAGS ====== */
+body{
+    padding: 8% 10%;   
+    font-family: 'Red Hat Display', sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+/* ======= CONTAINER ======= */
+#container{
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgb(133, 231, 133);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+@media (max-width: 900px){
+    #container{
+        flex-direction: column;
+    }
+    .input-div{
+        margin: 20px auto;
+    }
+}
+
+/* ====== INPUT SECTION ====== */
+label{
+    font-size: 1.5rem;
+}
+.entry{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 90%;
+    min-width: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 0.4em 0.6em;
+}
