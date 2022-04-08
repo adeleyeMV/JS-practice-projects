@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+:root{
+    --bg-color: #874356;
+    --txt-color: #F6E7D8;
+    --color: #C65D7B;
+}
+
+/* ====== CONTAINER ====== */
+.container{
+    width: 88%;
+    margin: 2rem auto 0;
+}
+
+/* ====== TITLE ====== */
+.title{
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    padding: 1rem;
+}
+
+/* ====== TEXTBOX ====== */
+#textbox{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.8rem;
+    background-color: var(--txt-color);
+    resize: vertical;
+}
+#textbox:focus{
+    outline: 3px solid transparent;
+}
+
+/* ====== TEXT COUNTER ======  */
+#text_counter{
+    margin-top: -8px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--txt-color);
+    padding: 0.4rem;
+    background-color: #C65D7B;
+}
