@@ -21,5 +21,10 @@ Here practicing JS by building mini web projects using HTML, CSS & JS
 			<td>Word Counter</td>
 			<td><a href="https://devvanu.github.io/js-practice-projects/word-counter/index.html">Demo</a></td>
 		</tr>
+		<tr>
+			<td>3</td>
+			<td>Background Changer</td>
+			<td><a href="https://devvanu.github.io/js-practice-projects/background-changer/index.html">Demo</a></td>
+		</tr>
 	</tbody>
 </table>
