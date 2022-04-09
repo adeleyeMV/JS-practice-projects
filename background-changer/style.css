@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ====== GENERAL TAGS ====== */
+body{
+    padding: 20px 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+p{
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* ====== BUTTON STYLING ====== */
+#color-picker{
+    text-align: right;
+}
+.btn{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 2px solid grey;
+    cursor: pointer;
+    margin: 3px;
+}
+
+/* ====== PARTICULAR COLOR STYLING ====== */
+#color1{
+    background-color: #f5deb3;
+}
+#color2{
+    background-color: #7fffd4;
+}
+#color3{
+    background-color: #dda0dd;
+}
+#color4{
+    background-color: #cd5c5c;
+}
