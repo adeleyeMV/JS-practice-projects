@@ -7,13 +7,9 @@
 
 /* ====== GENERAL TAGS ====== */
 body{
-    padding: 20px 100px;
+    padding: 80px 7%;
     font-family: 'Source Sans Pro', sans-serif;
-}
-h1{
     text-align: center;
-    text-decoration: underline;
-    margin-bottom: 40px;
 }
 img{
     width: 100%;
@@ -28,15 +24,17 @@ p{
 
 /* ====== BUTTON STYLING ====== */
 #color-picker{
-    text-align: right;
+    text-align: center;
+    margin: 25px auto 60px;
 }
 .btn{
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 40px;
     display: inline-block;
-    border: 2px solid grey;
+    border: 2px solid #120101ad;
     cursor: pointer;
-    margin: 3px;
+    margin: 0.3rem;
+    border-radius: 45%;
 }
 
 /* ====== PARTICULAR COLOR STYLING ====== */
