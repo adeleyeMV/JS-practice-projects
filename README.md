@@ -13,18 +13,18 @@ Here practicing JS by building mini web projects using HTML, CSS & JS
 	<tbody>
 		<tr>
 			<td>1</td>
-			<td>Temperature Converter</td>
-			<td><a href="https://devvanu.github.io/js-practice-projects/temperature-converter/index.html" target="_blank">Demo</a></td>
+			<td><a href="https://github.com/devvanu/js-practice-projects/tree/main/temperature-converter">Temperature Converter</a></td>
+			<td><a href="https://devvanu.github.io/js-practice-projects/temperature-converter/index.html">Demo</a></td>
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>Word Counter</td>
-			<td><a href="https://devvanu.github.io/js-practice-projects/word-counter/index.html" target="_blank">Demo</a></td>
+			<td><a href="https://github.com/devvanu/js-practice-projects/tree/main/word-counter">Word Counter</a></td>
+			<td><a href="https://devvanu.github.io/js-practice-projects/word-counter/index.html">Demo</a></td>
 		</tr>
 		<tr>
 			<td>3</td>
-			<td>Background Changer</td>
-			<td><a href="https://devvanu.github.io/js-practice-projects/background-changer/index.html" target="_blank">Demo</a></td>
+			<td><a href="https://github.com/devvanu/js-practice-projects/tree/main/background-changer">Background Changer</a></td>
+			<td><a href="https://devvanu.github.io/js-practice-projects/background-changer/index.html">Demo</a></td>
 		</tr>
 	</tbody>
 </table>
