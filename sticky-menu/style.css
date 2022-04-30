@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ====== GENERAL TAGS ====== */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    text-align: justify;
+}
+
+/* ====== LOGO STYLING ====== */
+.logo-img{
+    text-align: center;
+}
+.logo-img img{
+    width: 250px;
+    height: auto;
+}
+
+/* ======= MENU BAR ======== */
+#menu-bar{
+    text-align: center;
+    background-color: cadetblue;
+}
+#menu-bar li{
+    display: inline-block;
+    padding: 15px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ======= CONTENT CONTAINER ====== */
+#container{
+    text-align: center;
+    padding: 50px 80px;
+}
+#about-img{
+    width: 100%;
+}
+
+/* ====== STICKY CLASS ====== */
+.sticky{
+    position: fixed; 
+    top: 0px; 
+    width:100%;
+}
