@@ -2,42 +2,13 @@
 
 Practicing JavaScript by building mini web projects using HTML, CSS & JS  
 
-<table>
-	<thead>
-		<tr>
-			<th>S.No.</th>
-			<th>Project Code</th>
-			<th>Live Demo</th>
-			<td>Topic Covered</td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>1</td>
-			<td><a href="https://github.com/devvanu/js-practice-projects/tree/main/temperature-converter">Temperature Converter</a></td>
-			<td><a href="https://devvanu.github.io/js-practice-projects/temperature-converter/index.html">Demo</a></td>
-			<td>Events</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td><a href="https://github.com/devvanu/js-practice-projects/tree/main/word-counter">Word Counter</a></td>
-			<td><a href="https://devvanu.github.io/js-practice-projects/word-counter/index.html">Demo</a></td>
-			<td>Events, Array & String Methods</td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td><a href="https://github.com/devvanu/js-practice-projects/tree/main/background-changer">Background Changer</a></td>
-			<td><a href="https://devvanu.github.io/js-practice-projects/background-changer/index.html">Demo</a></td>
-			<td>Events</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td><a href="https://github.com/devvanu/js-practice-projects/tree/main/sticky-menu">Sticky Menu</a></td>
-			<td><a href="https://devvanu.github.io/js-practice-projects/sticky-menu/index.html">Demo</a></td>
-			<td>Events, Window Object</td>
-		</tr>
-	</tbody>
-</table>
+| S.No. |                               Project Code                                  |               Live Demo                 |         Topic Covered              |
+| :---: |   -----------------------------------------------------------------------   |   -----------------------------------   |   ------------------------------   |
+|   1   | [Temperature Converter](https://github.com/devvanu/js-practice-projects/tree/main/temperature-converter) | [Demo](https://devvanu.github.io/js-practice-projects/temperature-converter/index.html) | Input Event |
+|   2   | [Word Counter](https://github.com/devvanu/js-practice-projects/tree/main/word-counter) | [Demo](https://devvanu.github.io/js-practice-projects/word-counter/index.html) | Input Event, Array filter() |
+|   3   | [Background Changer](https://github.com/devvanu/js-practice-projects/tree/main/background-changer) | [Demo](https://devvanu.github.io/js-practice-projects/background-changer/index.html) | Click Event |
+|   4   | [Sticky Menu](https://github.com/devvanu/js-practice-projects/tree/main/sticky-menu) | [Demo](https://devvanu.github.io/js-practice-projects/sticky-menu/index.html) | Scroll Event, Window Object |
+|   5   | [Basic Form Validation](https://github.com/devvanu/js-practice-projects/tree/main/form-validation) | [Demo](https://devvanu.github.io/js-practice-projects/form-validation/index.html) | Submit Event, Prevent Default |
 
 </br>
 
