@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+:root{
+    --bg-color: #2da0b9;
+    --color1: #f1f2f6;
+    --color2: #227587;
+}
+
+/* ====== GENERAL TAGS STYLING ====== */
+h2{
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+input{
+    display: block;
+    width: 220px;
+    margin: 18px 0px;
+    padding: 9px 10px;
+    font-size: 1rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+/* ====== FORM CONTAINER & LOGIN FORM ====== */
+#form-container{
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-form{
+    background-color: var(--color1);
+    padding: 40px 50px;
+    box-shadow: 2px 3px 12px 1px rgba(0,0,0,0.75);
+}
+
+/* ====== SPECIFIC INPUT STYLING ====== */
+input[type="submit"]{
+    background-color: var(--bg-color);
+    margin-top: 30px;
+    height: 40px;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    box-shadow: 0px 4px 8px -2px rgb(0 0 0 / 75%);
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: var(--color2);
+}
+input[type="submit"]:hover{
+    background-color: var(--color2);
+    transform: translateY(4px);
+}
+
+/* ====== ERROR STYLING ====== */
+.error{
+    color: red;
+    text-align: left;
+}
+.input-success{
+    border: 2px solid #09c372;
+}
+.input-error{
+    border: 2px solid #ff3860;
+}
+
+/* ====== ALERT STYLING ====== */
+#alert{
+    display: none;
+    text-align: center;
+    background-color: #7bed9f;  
+    padding: 15px; 
+}
