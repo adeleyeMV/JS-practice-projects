@@ -9,6 +9,7 @@ Practicing JavaScript by building mini web projects using HTML, CSS & JS
 |   3   | [Background Changer](https://github.com/devvanu/js-practice-projects/tree/main/background-changer) | [Demo](https://devvanu.github.io/js-practice-projects/background-changer/index.html) | Click Event |
 |   4   | [Sticky Menu](https://github.com/devvanu/js-practice-projects/tree/main/sticky-menu) | [Demo](https://devvanu.github.io/js-practice-projects/sticky-menu/index.html) | Scroll Event, Window Object |
 |   5   | [Basic Form Validation](https://github.com/devvanu/js-practice-projects/tree/main/form-validation) | [Demo](https://devvanu.github.io/js-practice-projects/form-validation/index.html) | Submit Event, Prevent Default |
+|   6   | [Image Slider](https://github.com/devvanu/js-practice-projects/tree/main/image-slider) | [Demo](https://devvanu.github.io/js-practice-projects/image-slider/index.html) | Click Event |
 
 </br>
 
