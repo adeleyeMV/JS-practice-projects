@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION SECTOIN  -->
+    <header id="header">
+        <div id="title">XYZ Notes</div>
+        <div id="search-bar">
+            <form>
+                <input type="text" placeholder="Search..." id="search-txt" name="search">
+                <button type="submit" id="search-btn"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </header>
+
+    <!-- GENERAL NOTES LAYOUT SECTION  -->
+    <section class="container">
+        <h1>Welcome to XYZ Notes</h1>
+        <div class="gen-notes">
+            <div class="note-box">
+       
+                <label for="note-title">Add a Title</label>
+                <input type="text" class="note-content" id="note-title" placeholder="Add your title here...">
+
+                <label for="note-content">Add a Note</label>
+                <textarea  class="note-content" name="textarea" id="note-content" rows="5" placeholder="Write your note here..."></textarea>
+                
+                <button class="btn" id="add-btn">Add Note</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- YOUR PREVIOUS NOTES SECTION  -->
+    <section class="container">
+        <h1>Your Notes</h1>
+        <div class="border"></div>
+        <div class="notes row" id="notes"> </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
