@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* ====== CSS RESET ====== */
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+:root{
+    --bg-color: #2c3e50;
+    --text-color: #d7dfe4;
+    --color1: #1abc9c;
+    --color2: #3498db;
+    --color3: #e74c3c;
+}
+
+/* ====== GENERAL TAGS ====== */
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ====== TEXT CONTAINER ====== */
+#container{
+    color: var(--text-color);
+    font-weight: bold;
+}
+.digit{
+    font-size: 13vw;
+}
+.txt{
+    font-size: 3vw;
+}
+
+/* ====== BUTTON CONTAINER ====== */
+#button-container{
+    margin-top: 25px;
+}
+.btn{
+    padding: 0.5em 1em;
+    font-size: 2vw;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px 0px rgb(0 0 0 / 75%);
+    transition: transform 0.3s ease-out;
+}
+.btn + .btn{
+    margin-left: 1em;
+}
+.btn:hover{
+    transform: translateY(2px);
+}
+
+/* ===== SPECIFIC BUTTON STYLING ====== */
+#start{
+    background-color: var(--color1);
+}
+#stop{
+    background-color: var(--color3);
+}
+#reset{
+    background-color: var(--color2);
+}
