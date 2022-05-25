@@ -1,6 +1,6 @@
 # JS PRACTICE PROJECTS
 
-Practicing JavaScript by building mini web projects using HTML, CSS & JS  
+Building mini web projects using HTML, CSS & JS  
 
 | S.No. |                               Project Code                                  |               Live Demo                 |         Topic Covered              |
 | :---: |   -----------------------------------------------------------------------   |   -----------------------------------   |   ------------------------------   |
